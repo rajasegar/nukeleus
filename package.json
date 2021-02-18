@@ -1,0 +1,41 @@
+{
+  "name": "react-nucleus",
+  "version": "1.0.0",
+  "description": "React components based on Nucleus",
+  "main": "src/components/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9000 -s public",
+    "storybook:build": "build-storybook -s public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasegar-c/react-nucleus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajasegar-c/react-nucleus/issues"
+  },
+  "homepage": "https://github.com/rajasegar-c/react-nucleus#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-intl": "^5.12.3",
+    "styled-components": "^5.2.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^6.0.27",
+    "@storybook/addon-actions": "^6.0.27",
+    "@storybook/addon-backgrounds": "^6.0.27",
+    "@storybook/addon-contexts": "^5.3.21",
+    "@storybook/addon-docs": "^6.0.27",
+    "@storybook/addon-knobs": "^6.0.27",
+    "@storybook/addon-links": "^6.0.27",
+    "@storybook/addons": "^6.0.27",
+    "@storybook/react": "^6.0.27",
+    "storybook-formik": "^2.1.2"
+  }
+}
