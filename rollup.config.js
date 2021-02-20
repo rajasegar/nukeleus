@@ -18,7 +18,12 @@ export default {
       exports: 'named'
     }
   ],
-  external: Object.keys(pkg.peerDependencies || {}),
+  external: [
+    'react',
+    'react-dom',
+    'prop-types',
+    'styled-components'
+  ],
   plugins:[
     babel({
       exclude: 'node_modules/**',
