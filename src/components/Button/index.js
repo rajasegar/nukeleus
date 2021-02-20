@@ -1,4 +1,3 @@
-// TODO: Later need to change it as styled-system - variant
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import {
