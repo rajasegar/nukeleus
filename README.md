@@ -1,2 +1,2 @@
-# react-nucleus
-React components based on Nucleus
+# nukeleus
+A styled component library 
