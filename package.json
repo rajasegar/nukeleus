@@ -9,7 +9,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c",
     "storybook": "start-storybook -p 9000 -s public",
-    "storybook:build": "build-storybook -s public"
+    "storybook:build": "build-storybook -s public",
+    "release": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",
