@@ -12,6 +12,10 @@ import {
   shadow,
 } from 'styled-system';
 
+import { defaultTheme } from '../../themeUtils';
+
+const { palette, colors, shadows, gradients } = defaultTheme;
+
 const disabledState = {
   primary: {
     background: 'linear-gradient(180deg, #92A2B1 4.39%, #7B8E9F 94.46%)',
@@ -33,7 +37,6 @@ export const Button = styled('button')(
     width = 80,
     mr = '',
     iconOnly = false,
-    theme: { colors, gradients, shadows },
     customStyle,
     hoverBg,
     size,
@@ -55,7 +58,7 @@ export const Button = styled('button')(
     }`,
     borderRadius: 4,
     boxShadow: `${variant === 'transparent' ? 'none' : shadows.input}`,
-    color: variant === 'secondary' ? colors.button.primary : colors.white,
+    color: variant === 'secondary' ? palette.elephant[900] : palette.white,
     fontSize: 14,
     fontWeight: 500,
     height: `${size === 'mini' ? '24px' : '32px'}`,
