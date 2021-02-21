@@ -10,7 +10,6 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-contexts/register",
     "@storybook/addon-a11y/register",
-    "storybook-formik/register",
     {
       name: '@storybook/addon-docs',
       options: {

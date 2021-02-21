@@ -17,4 +17,4 @@ addParameters({
 
 addDecorator(withKnobs);
 addDecorator(withA11y);
-addDecorator(withContexts(contexts));
+//addDecorator(withContexts(contexts));

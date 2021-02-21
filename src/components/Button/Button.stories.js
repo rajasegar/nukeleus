@@ -5,7 +5,7 @@ import { Button } from './index';
 
 export default {
   component: Button,
-  title: 'Components | Button',
+  title: 'Button',
   argTypes: {
     backgroundColor: { control: 'color' },
   },
