@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component test suite Should render Dropdown 1`] = `
+.c0 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  background: #EBEFF3;
+}
+
+.c0:hover {
+  background: #EBEFF3;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <svg
+      class=""
+      fill="none"
+      height="4"
+      viewBox="0 0 16 4"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clip-rule="evenodd"
+        d="M1.55907 3.24628e-05C0.931649 -0.00401547 0.363757 0.370816 0.120845 0.949315C-0.122067 1.52782 0.00798309 2.19571 0.450205 2.64081C0.892427 3.0859 1.55947 3.22027 2.13953 2.98111C2.71959 2.74194 3.09809 2.17649 3.0981 1.54906C3.09812 0.697443 2.41066 0.00552676 1.55907 3.24628e-05ZM16 1.54906C16 2.40456 15.3065 3.09809 14.451 3.09809C13.5955 3.09809 12.9019 2.40456 12.9019 1.54906C12.9019 0.693554 13.5955 3.04984e-05 14.451 3.04984e-05C15.3065 3.04984e-05 16 0.693554 16 1.54906ZM6.456 1.54906C6.456 0.693554 7.14952 3.04984e-05 8.00503 3.04984e-05C8.85826 0.00548265 9.5486 0.695822 9.55406 1.54906C9.55406 2.40456 8.86053 3.09809 8.00503 3.09809C7.14952 3.09809 6.456 2.40456 6.456 1.54906Z"
+        fill="black"
+        fill-rule="evenodd"
+      />
+    </svg>
+  </div>
+  <div>
+    Dropdown
+  </div>
+</div>
+`;
