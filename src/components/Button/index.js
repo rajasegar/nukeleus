@@ -13,7 +13,6 @@ import {
 } from 'styled-system';
 
 import { defaultTheme } from '../../themeUtils';
-
 const { palette, colors, shadows, gradients } = defaultTheme;
 
 const disabledState = {

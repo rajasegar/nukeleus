@@ -17,21 +17,17 @@ const Template = (args) => (
   </Avatar>
 );
 
-export const Primary = Template.bind({});
-Primary.args = {
-  variant: 'primary',
-  label: 'Button',
+export const Normal = Template.bind({});
+Normal.args = {
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: 'Button',
-  variant: 'secondary',
+export const Medium = Template.bind({});
+Medium.args = {
+  size: 32
 };
 
 
-export const PrimaryMini = Template.bind({});
-PrimaryMini.args = {
-  variant: 'primary',
-  size: 'mini'
+export const Large = Template.bind({});
+Large.args = {
+  size: 64
 };
