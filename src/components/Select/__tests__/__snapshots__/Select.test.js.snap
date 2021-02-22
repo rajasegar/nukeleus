@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component test suite should render Select 1`] = `
+.c1 {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.c0 {
+  width: 200px;
+}
+
+.c0 .freshui-select__control {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #CFD7DF;
+  background-color: #FFFFFF;
+  color: #12344D;
+  font-size: 14px;
+  line-height: 20px;
+  min-height: 32px;
+  box-shadow: inset 0px 1px 2px rgba(24,50,71,0.05);
+}
+
+.c0 .freshui-select__control::-webkit-input-placeholder {
+  color: #92A2B1;
+}
+
+.c0 .freshui-select__control::-moz-placeholder {
+  color: #92A2B1;
+}
+
+.c0 .freshui-select__control:-ms-input-placeholder {
+  color: #92A2B1;
+}
+
+.c0 .freshui-select__control::placeholder {
+  color: #92A2B1;
+}
+
+.c0 .freshui-select__control:hover {
+  border: 1px solid #475867;
+}
+
+.c0 .freshui-select__control:focus {
+  border: 1px solid #2C5CC5;
+  box-shadow: 0 0 0 1px #2C5CC5;
+}
+
+.c0 .freshui-select__control:disabled {
+  border: 1px solid #EBEFF3;
+  background-color: #F7F9FA;
+}
+
+.c0 .freshui-select__control--menu-is-open {
+  border: 1px solid #2C5CC5;
+  box-shadow: 0 0 0 1px #2C5CC5;
+}
+
+.c0 .freshui-select__menu {
+  padding: 0 8px;
+  max-height: 250px;
+  width: 200px;
+}
+
+.c0 .freshui-select__menu .freshui-select__menu-list {
+  max-height: 250px;
+}
+
+.c0 .freshui-select-error .freshui-select__control {
+  border: 1px solid;
+}
+
+.c0 .freshui-select-error .freshui-select__control:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 4px 0;
+}
+
+.c0 .glyphicon-menu-down,
+.c0 .glyphicon-menu-up {
+  font-size: 9px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+<div
+  class="c0"
+>
+  <label
+    style="display: flex;"
+  >
+    select an option
+    <p
+      style="color: red;"
+    >
+      *
+    </p>
+  </label>
+  <div
+    class=" css-2b097c-container"
+  >
+    <div
+      class="freshui-select__control css-yk16xz-control"
+    >
+      <div
+        class="freshui-select__value-container css-g1d714-ValueContainer"
+      >
+        <span>
+          <div
+            class="freshui-select__placeholder css-1wa3eu0-placeholder"
+          >
+            Select
+          </div>
+          <input
+            aria-autocomplete="list"
+            class="css-62g3xt-dummyInput"
+            id="react-select-2-input"
+            readonly=""
+            tabindex="0"
+            value=""
+          />
+        </span>
+      </div>
+      <div
+        class="freshui-select__indicators css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          class="c1"
+          fill="none"
+          height="12"
+          viewBox="0 0 10 6"
+          width="12"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.23489 1.05403C1.90679 0.715464 1.37465 0.715285 1.04633 1.05363C0.718016 1.39197 0.717842 1.94072 1.04595 2.27928L4.40551 5.74595C4.73376 6.08467 5.2662 6.08467 5.59446 5.74595L8.95402 2.27928C9.28212 1.94072 9.28195 1.39197 8.95363 1.05363C8.62531 0.715285 8.09317 0.715464 7.76507 1.05403L4.99998 3.90727L2.23489 1.05403Z"
+            fill="black"
+          />
+          <mask
+            height="6"
+            id="mask0"
+            mask-type="alpha"
+            maskUnits="userSpaceOnUse"
+            width="10"
+            x="0"
+            y="0"
+          >
+            <path
+              d="M2.23489 1.05403C1.90679 0.715464 1.37465 0.715285 1.04633 1.05363C0.718016 1.39197 0.717842 1.94072 1.04595 2.27928L4.40551 5.74595C4.73376 6.08467 5.2662 6.08467 5.59446 5.74595L8.95402 2.27928C9.28212 1.94072 9.28195 1.39197 8.95363 1.05363C8.62531 0.715285 8.09317 0.715464 7.76507 1.05403L4.99998 3.90727L2.23489 1.05403Z"
+              fill="white"
+            />
+          </mask>
+          <g
+            mask="url(#mask0)"
+          >
+            <rect
+              fill="#12344D"
+              height="12"
+              width="12"
+              x="-1"
+              y="-3"
+            />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
