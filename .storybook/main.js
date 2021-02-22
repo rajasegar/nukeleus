@@ -9,7 +9,7 @@ module.exports = {
     "@storybook/addon-links/register",
     "@storybook/addon-essentials",
     "@storybook/addon-contexts/register",
-    "@storybook/addon-a11y/register",
+    "@storybook/addon-a11y",
     {
       name: '@storybook/addon-docs',
       options: {

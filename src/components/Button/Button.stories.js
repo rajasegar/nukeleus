@@ -6,9 +6,6 @@ import { Button } from './index';
 export default {
   component: Button,
   title: 'Button',
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
 };
 
 export const Basic = () => {
@@ -40,3 +37,9 @@ PrimaryMini.args = {
   variant: 'primary',
   size: 'mini'
 };
+
+export const accessible = () => <Button>Accessible button</Button>;
+
+export const inaccessible = () => (
+  <Button background="red" color="darkRed">Inaccessible button</Button>
+);
