@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
+/*
 type Props = {
     onClick: Function,
     className: string,
@@ -9,6 +10,7 @@ type Props = {
     title: string,
     children: any
 }
+*/
 
 const Tooltip = ({ onClick, children, title, className, textClassName, textStyle, style, position }) => (
     <StyledTooltip style={style} className={className} onClick={onClick}>
