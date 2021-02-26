@@ -1397,8 +1397,6 @@ var disabledState = {
 var Button = styled__default['default']('button')(function (_ref) {
   var _ref$variant = _ref.variant,
       variant = _ref$variant === void 0 ? 'secondary' : _ref$variant,
-      _ref$width = _ref.width,
-      width = _ref$width === void 0 ? 80 : _ref$width,
       _ref$mr = _ref.mr,
       mr = _ref$mr === void 0 ? '' : _ref$mr,
       _ref$iconOnly = _ref.iconOnly,
@@ -1408,7 +1406,6 @@ var Button = styled__default['default']('button')(function (_ref) {
       size = _ref.size;
   return _objectSpread2({
     cursor: 'pointer',
-    minWidth: width,
     outline: 'none',
     display: 'flex',
     justifyContent: 'center',
