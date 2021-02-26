@@ -74,5 +74,3 @@ Tag.propTypes = {
   ]),
   visibility: PropTypes.string,
 };
-
-export default Tag;
