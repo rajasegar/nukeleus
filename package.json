@@ -10,7 +10,8 @@
     "build": "rollup -c",
     "storybook": "start-storybook -p 9000 -s public",
     "storybook:build": "build-storybook -s public",
-    "release": "git push && git push --tags && npm publish"
+    "release": "git push && git push --tags && npm publish",
+    "deploy": "surge storybook-static nukleus.surge.sh"
   },
   "repository": {
     "type": "git",
