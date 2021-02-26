@@ -33,7 +33,6 @@ const disabledState = {
 export const Button = styled('button')(
   ({
     variant = 'secondary',
-    width = 80,
     mr = '',
     iconOnly = false,
     customStyle,
@@ -41,7 +40,6 @@ export const Button = styled('button')(
     size,
   }) => ({
     cursor: 'pointer',
-    minWidth: width,
     outline: 'none',
     display: 'flex',
     justifyContent: 'center',
